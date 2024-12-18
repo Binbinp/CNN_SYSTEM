@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload PDF</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <h1>PLM Documents Verification</h1>
+    <h2>PDF File Only</h2>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <div class="input-container">
+            <input type="file" name="file" accept="application/pdf">
+        </div>
+        <div class="button-container">
+            <input type="submit" value="Upload PDF">
+        </div>
+    </form>
+    
+    <script src="static/script.js"></script>
+</body>
+</html>
