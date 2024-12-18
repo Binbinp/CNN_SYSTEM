@@ -13,6 +13,7 @@ from tkinter import filedialog, messagebox
 import pandas as pd  # For handling Excel files
 import re
 
+
 # Set the path to the Tesseract executable
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'  # For Windows
 
